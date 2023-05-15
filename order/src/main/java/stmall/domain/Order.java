@@ -16,13 +16,9 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
     private String userId;
-
     private Long productId;
-
     private String productName;
-
     private Integer qty;
 
     @PostPersist
